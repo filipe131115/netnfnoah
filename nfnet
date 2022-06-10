@@ -2,9 +2,9 @@
   "Version": "1.2.4",
   "ReleaseNotes": "Atualização encontrada ✓",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
-  "Sms": "https://bitbin.it/oKgMpLx1/raw/",
-  "EmailFeedback": "cloudzinmaker@gmail.com",
-  "UrlContato": "https://t.me/satancloud",
+  "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
+  "EmailFeedback": "filipe260100@gmail.com",
+  "UrlContato": "https://t.me/",
   "UrlTermos": "Link de termos",
   "CheckUser": "true",
   "Udp": [
