@@ -1,17 +1,13 @@
 {
-  "Version": "5.0.3",
-  "ReleaseNotes": "Atualização encontrada ✓",
+  "Version": "5.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 5.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
-  "EmailFeedback": "filipe260100@gmail.com",
-  "UrlContato": "https://t.me/",
-  "UrlTermos": "Link de termos",
+  "EmailFeedback": "ultranetvpn@gmail.com",
+  "UrlContato": "filipe260100@gmail.com",
+  "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
-  "Udp": [
-    {
-      "Porta": "7300"
-    }
-  ],
+  "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
       "Name": "⚡BRASIL CLOUD",
