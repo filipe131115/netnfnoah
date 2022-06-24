@@ -1,5 +1,5 @@
 {
-  "Version": "5.5.0",
+  "Version": "1.0.1",
   "ReleaseNotes": "Atualização encontrada ✓",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -27,7 +27,7 @@
   ],
 
 "Networks": [
-{
+   {
    "Name": "VIVO PROXY 0",
    "FLAG": "vivo",
    "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
