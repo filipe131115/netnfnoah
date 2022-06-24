@@ -1,11 +1,11 @@
 {
-  "Version": "1.2.2",
-  "ReleaseNotes": "🇧🇷Novas servidores grátis disponíveis :), atualize para se manter conectado !",
+  "Version": "1.1.8",
+  "ReleaseNotes": "Atualização encontrada ✓",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "filipe260100@gmail.com",
   "UrlContato": "https://t.me/",
-  "UrlTermos": "https://linkmenu.cc/cloudrocket",
+  "UrlTermos": "Link de termos",
   "CheckUser": "true",
   "Udp": [
     {
@@ -14,18 +14,19 @@
   ],
   "Servers": [
     {
-      "Name": "🔄SERVIDOR ALEATÓRIO",
-      "TYPE": "free",
-      "FLAG": "id.png",
+      "Name": "⚡BRASIL CLOUD",
+      "TYPE": "premium",
+      "FLAG": "br.png",
       "ServerIP": "br1.noahfelipes.online",
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    {
- ],
- "Networks": [
+    }
+  ],
+
+"Networks": [
 {
    "Name": "INJECT PROXY 1",
    "FLAG": "vivo",
