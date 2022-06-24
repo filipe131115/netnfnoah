@@ -57,7 +57,7 @@
    "ProxyPort": "80",
    "Info": "proxy"
   },
-{
+  {
    "Name": "VIVO TLS 3",
    "FLAG": "vivo",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
@@ -137,7 +137,7 @@
    "ProxyPort": "443",
    "Info": "Tlsws
   },
-{
+  {
    "Name": "TIM PROXY 11",
    "FLAG": "tim",
    "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -147,7 +147,7 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
-{
+  {
    "Name": "TIM TLS 12",
    "FLAG": "tim",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
@@ -227,7 +227,7 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
-{
+  {
    "Name": "OI PROXY 20",
    "FLAG": "oi",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
