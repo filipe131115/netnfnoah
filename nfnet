@@ -1,5 +1,5 @@
 {
-  "Version": "5.0.1",
+  "Version": "5.0.2",
   "ReleaseNotes": "Atualização encontrada ✓",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -28,7 +28,7 @@
 
 "Networks": [
    {
-      "Name": "🇧🇷Vivo 01",
+      "Name": "🟣🇷Vivo 01",
       "FLAG": "vivo",
       "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "vigia.vivo.com.br",
@@ -38,7 +38,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🇧🇷Vivo  02",
+      "Name": "🟣🇷Vivo  02",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -48,7 +48,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🇧🇷Vivo 3",
+      "Name": "🟣Vivo 3",
       "FLAG": "vivo",
       "Payload": "GET ws://www.infinitepay.io HTTP/1.1\nHost: net.sshplusnet.xyz\nUpgrade: ws\n\n", 
       "SNI": "www.infinitepay.io",
