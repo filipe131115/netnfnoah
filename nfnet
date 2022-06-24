@@ -1,5 +1,5 @@
 {
-  "Version": "2.1.8",
+  "Version": "2.1.9",
   "ReleaseNotes": "Atualização encontrada ✓",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -28,7 +28,7 @@
 
 "Networks": [
 {
-   "Name": "INJECT PROXY 1",
+   "Name": "VIVO PROXY 1",
    "FLAG": "vivo",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "celular.vivo.com.br",
@@ -38,7 +38,7 @@
    "Info": "proxy"
   },
   {
-   "Name": "INJECT PROXY 2",
+   "Name": "VIVO PROXY 2",
    "FLAG": "Vivo",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "celular.vivo.com.br",
@@ -48,7 +48,7 @@
    "Info": "proxy"
   },
 {
-   "Name": "INJECT TLS 3",
+   "Name": "VIVO TLS 3",
    "FLAG": "vivo",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "celular.vivo.com.br",
@@ -58,7 +58,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 4",
+   "Name": "VIVO TLS 4",
    "FLAG": "vivo",
    "Payload": "GET wss://bi-router.movistar.com.ar [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "bi-router.movistar.com.ar",
@@ -68,7 +68,7 @@
    "Info": "Tlsws"
   },  
   {
-   "Name": "INJECT TLS 5",
+   "Name": "VIVO TLS 5",
    "FLAG": "vivo",
    "Payload": "GET wss://help.cloudflareclient.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "help.cloudflareclient.com",
@@ -78,7 +78,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 6",
+   "Name": "CLARO TLS 6",
    "FLAG": "claro",
    "Payload": "GET sni://api.new.livestream.com HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Upgrade[crlf][crlf]",
    "SNI": "api.new.livestream.com",
@@ -88,7 +88,7 @@
    "Info": "Tlsws"
   }, 
   {
-   "Name": "INJECT TLS 7",
+   "Name": "CLARO TLS 7",
    "FLAG": "claro",
    "Payload": "GET wss://connect.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "connect.kaltura.com",
@@ -98,7 +98,7 @@
    "Info": "Tlsws"
   }, 
   {
-   "Name": "INJECT TLS 8",
+   "Name": "CLARO TLS 8",
    "FLAG": "claro",
    "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "go.kaltura.com",
@@ -108,7 +108,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 9",
+   "Name": "CLARO TLS 9",
    "FLAG": "claro",
    "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "icanhazip.com",
@@ -118,7 +118,7 @@
    "Info": "Tlsws"
   }, 
   {
-   "Name": "INJECT TLS 10",
+   "Name": "CLARO TLS 10",
    "FLAG": "claro",
    "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "content.akross.com.br",
@@ -128,7 +128,7 @@
    "Info": "Tlsws"
   },
 {
-   "Name": "INJECT PROXY 11",
+   "Name": "TIM PROXY 11",
    "FLAG": "tim",
    "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "beringtime.com",
@@ -138,7 +138,7 @@
    "Info": "Tlsws"
   },
 {
-   "Name": "INJECT TLS 12",
+   "Name": "TIM TLS 12",
    "FLAG": "tim",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "static.r4you.co",
@@ -148,7 +148,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 13",
+   "Name": "TIM TLS 13",
    "FLAG": "tim",
    "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "static.r4you.co",
@@ -158,7 +158,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 14",
+   "Name": "TIM TLS 14",
    "FLAG": "tim",
    "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "[app_host]",
@@ -168,7 +168,7 @@
    "Info": "Tlsws"
   },   
   {
-   "Name": "INJECT TLS 15",
+   "Name": "TIM TLS 15",
    "FLAG": "tim",
    "Payload": "GET sni://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "cdnjs.cloudflare.com",
@@ -178,7 +178,7 @@
    "Info": "Tlsws"
   },   
   {
-   "Name": "INJECT TLS 16",
+   "Name": "TIM TLS 16",
    "FLAG": "tim",
    "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
    "SNI": "cdnjs.cloudflare.com",
@@ -188,7 +188,7 @@
    "Info": "Tlsws"
   },  
   {
-   "Name": "INJECT TLS 17",
+   "Name": "TIM TLS 17",
    "FLAG": "tim",
    "Payload": "GET wss://m.timbancavirtual.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "m.timbancavirtual.com.br",
@@ -198,7 +198,7 @@
    "Info": "Tlsws"
   }, 
   {
-   "Name": "INJECT TLS 18",
+   "Name": "TIM TLS 18",
    "FLAG": "tim",
    "Payload": "GET ws://consultatim.com.br HTTP/1.1\nHost: [app_host_proxy]\nUpgrade: ws\n\n",
    "SNI": "consultatim.com.br",
@@ -208,7 +208,7 @@
    "Info": "Tlsws"
   },  
   {
-   "Name": "INJECT TLS 19",
+   "Name": "TIM TLS 19",
    "FLAG": "tim",
    "Payload": "GET wss://accesswdun.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "accesswdun.com",
@@ -218,7 +218,7 @@
    "Info": "Tlsws"
   },
 {
-   "Name": "INJECT PROXY 20",
+   "Name": "OI PROXY 20",
    "FLAG": "oi",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "oii.gdmhost.ga",
@@ -228,7 +228,7 @@
    "Info": "proxy"
   },
   {
-   "Name": "INJECT TLS 21",
+   "Name": "OI TLS 21",
    "FLAG": "oi",
    "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "www.hbogo.com.br",
@@ -238,7 +238,7 @@
    "Info": "Tlsws"
   }, 
   {
-   "Name": "INJECT TLS 22",
+   "Name": "OI TLS 22",
    "FLAG": "oi",
    "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws[crlf]Sec-Websocket-Extensions: superspeed\n\n",
    "SNI": "www.hbogo.com.br",
@@ -248,7 +248,7 @@
    "Info": "Tlsws"
   },  
   {
-   "Name": "INJECT TLS 23",
+   "Name": "OI TLS 23",
    "FLAG": "oi",
    "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "[app_host]",
