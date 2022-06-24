@@ -1,6 +1,6 @@
 {
-  "Version": "5.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 5.0 novas para todas as operadoras",
+  "Version": "1.1",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 1.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
