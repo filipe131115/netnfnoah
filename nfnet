@@ -71,7 +71,7 @@
    "TlsIP": "172.64.131.2",
    "ProxyIP": "",
    "ProxyPort": "443",
-   "Info": "Tlsws""
+   "Info": "Tlsws"
   },
   {
    "Name": "INJECT TLS 6",
