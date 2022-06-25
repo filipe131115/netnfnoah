@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.3",
+  "Version": "1.3.4",
   "ReleaseNotes": "@filipeNF\nconfig 1.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -46,7 +46,7 @@
 {
    "Name": "INJECT TLS 3",
    "FLAG": "vivo",
-   "Payload": "GET ws://www.infinitepay.io HTTP/1.1\nHost: net.sshplusnet.xyz\nUpgrade: ws\n\n", 
+   "Payload": "GET ws://www.infinitepay.io HTTP/1.1\nHost: br1.noahfelipes.online\nUpgrade: ws\n\n", 
    "SNI": "www.infinitepay.io",
    "TlsIP": "104.24.10.16",
    "ProxyIP": "",
