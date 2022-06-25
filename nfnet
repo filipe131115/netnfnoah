@@ -1,6 +1,6 @@
 {
-  "Version": "1.3",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 1.0 novas para todas as operadoras",
+  "Version": "1.3.1",
+  "ReleaseNotes": "@filipeNF\nconfig 1.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -274,6 +274,16 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+    {
+   "Name": "CLARO🔴 TLS [11]",
+   "FLAG": "claro",
+   "Payload": "GET sni://api.new.livestream.com HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Upgrade[crlf][crlf]",
+   "SNI": "api.new.livestream.com",
+   "TlsIP": "api.new.livestream.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+    }, 
     {
       "Name": "OI 1",
       "FLAG": "oi",
