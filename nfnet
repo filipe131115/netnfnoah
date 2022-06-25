@@ -1,6 +1,6 @@
 {
-  "Version": "1.3.4",
-  "ReleaseNotes": "@filipeNF\nconfig 1.0 novas para todas as operadoras",
+  "Version": "1.3.5",
+  "ReleaseNotes": "@filipeNF\nconfig 1.3.5 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -56,9 +56,9 @@
   {
    "Name": "INJECT TLS 4",
    "FLAG": "vivo",
-   "Payload": "GET wss://bi-router.movistar.com.ar [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "bi-router.movistar.com.ar",
-   "TlsIP": "104.18.6.80",
+   "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: br1.noahfelipes.online[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+   "SNI": "www.alura.com.br",
+   "TlsIP": "104.24.11.16",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
@@ -66,12 +66,12 @@
   {
    "Name": "INJECT TLS 5",
    "FLAG": "vivo",
-   "Payload": "GET wss://help.cloudflareclient.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "help.cloudflareclient.com",
-   "TlsIP": "vigia.vivo.com.br",
+   "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "money-staging.infinitepay.io",
+   "TlsIP": "172.64.131.2",
    "ProxyIP": "",
    "ProxyPort": "443",
-   "Info": "Tlsws"
+   "Info": "Tlsws""
   },
   {
    "Name": "INJECT TLS 6",
