@@ -46,9 +46,9 @@
 {
    "Name": "INJECT TLS 3",
    "FLAG": "vivo",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "celular.vivo.com.br",
-   "TlsIP": "celular.vivo.com.br",
+   "Payload": "GET ws://www.infinitepay.io HTTP/1.1\nHost: net.sshplusnet.xyz\nUpgrade: ws\n\n", 
+   "SNI": "www.infinitepay.io",
+   "TlsIP": "104.24.10.16",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
