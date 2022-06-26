@@ -1,6 +1,6 @@
 {
-  "Version": "1.3.7",
-  "ReleaseNotes": "@filipeNF\nconfig 1.3.7 novas para todas as operadoras",
+  "Version": "1.3.8",
+  "ReleaseNotes": "@filipeNF\nconfig 1.3.8 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -14,7 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.noahfelipes.online",
-      "CheckUser": "http://186.233.119.52:8181/checkUser",
+      "CheckUser": "http://186.233.119.106:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
