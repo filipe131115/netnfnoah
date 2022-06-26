@@ -14,7 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.noahfelipes.online",
-      "CheckUser": "http://186.233.119.106:8181/checkUser",
+      "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
