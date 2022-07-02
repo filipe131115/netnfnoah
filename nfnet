@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.4",
-  "ReleaseNotes": "@filipeNF\nconfig 1.4.4 novas para todas as operadoras",
+  "Version": "1.4.5",
+  "ReleaseNotes": "@filipeNF\nconfig 1.4.5 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -22,8 +22,8 @@
      },
      {
       "Name": "VIVO",
-      "TYPE": "free",
-      "FLAG": "us.png",
+      "TYPE": "premium",
+      "FLAG": "br.png",
       "ServerIP": "d3nv7tg6fxbhk6.cloudfront.net",
       "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
