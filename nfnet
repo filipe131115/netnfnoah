@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.3",
-  "ReleaseNotes": "@filipeNF\nconfig 1.4.3 novas para todas as operadoras",
+  "Version": "1.4.4",
+  "ReleaseNotes": "@filipeNF\nconfig 1.4.4 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -13,7 +13,7 @@
       "Name": "⚡NF NET",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "d3nv7tg6fxbhk6.cloudfront.net",
+      "ServerIP": "br1.noahfelipes.online",
       "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
