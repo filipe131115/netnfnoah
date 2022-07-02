@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.7",
-  "ReleaseNotes": "@filipeNF\nconfig 1.4.7 novas para todas as operadoras",
+  "Version": "1.4.8",
+  "ReleaseNotes": "@filipeNF\nconfig 1.4.8 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -57,9 +57,9 @@
 {
    "Name": "VIVO TLS 3",
    "FLAG": "vivo",
-   "Payload": "GET wss://support.pokemon.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "support.pokemon.com",
-   "TlsIP": "support.pokemon.com",
+   "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: subdominioCloudflareAqui[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "vivo360.vivo.com.br",
+   "TlsIP": "104.18.6.80",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
