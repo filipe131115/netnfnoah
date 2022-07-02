@@ -57,7 +57,7 @@
 {
    "Name": "VIVO TLS 3",
    "FLAG": "vivo",
-   "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: subdominioCloudflareAqui[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "vivo360.vivo.com.br",
    "TlsIP": "104.18.6.80",
    "ProxyIP": "",
