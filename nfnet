@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5",
+  "Version": "1.4.6",
   "ReleaseNotes": "@filipeNF\nconfig 1.4.5 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -45,14 +45,14 @@
    "Info": "Proxy"
   },
   {
-   "Name": "VIVO PROXY 2",
-   "FLAG": "Vivo",
-   "Payload": "GET wss://support.pokemon.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "support.pokemon.com",
-   "TlsIP": "104.24.10.16",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
+  "Name": "《VIVO》『𝟘𝟚』", 
+      "FLAG": "vivo", 
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3nv7tg6fxbhk6.cloudfront.net[crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "", 
+      "TlsIP": "", 
+      "ProxyIP": "104.16.56.6", 
+      "ProxyPort": "80", 
+      "Info": "Proxy"
   },
 {
    "Name": "VIVO TLS 3",
