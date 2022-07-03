@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.0",
-  "ReleaseNotes": "@filipeNF\nconfig 1.5.0 novas para todas as operadoras",
+  "Version": "1.5.1",
+  "ReleaseNotes": "@filipeNF\nconfig 1.5.1 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -47,7 +47,7 @@
   {
    "Name": "INJECT PROXY 1",
    "FLAG": "vivo",
-   "Payload": "GET wss://support.pokemon.comwss://support.pokemon.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "Payload": "GET wss://support.pokemon.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "support.pokemon.com",
    "TlsIP": "104.24.10.16",
    "ProxyIP": "",
@@ -67,9 +67,9 @@
 {
    "Name": "INJECT TLS 3",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "104.18.6.80",
+      "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "unpkg.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
