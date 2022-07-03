@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.1",
-  "ReleaseNotes": "@filipeNF\nconfig 1.5.1 novas para todas as operadoras",
+  "Version": "1.5.2",
+  "ReleaseNotes": "@filipeNF\nconfig 1.5.2 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -55,7 +55,7 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "INJECT TLS 1",
+   "Name": "VIVO ATUALIZADA 1",
       "FLAG": "vivo",
       "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "unpkg.com",
