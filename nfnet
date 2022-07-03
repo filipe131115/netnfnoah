@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.1",
+  "Version": "2.0.2",
   "ReleaseNotes": "@filipeNF\nconfig 2 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -30,7 +30,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
+     }
   ],
 
 "Networks": [
