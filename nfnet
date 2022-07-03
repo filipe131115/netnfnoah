@@ -1,6 +1,6 @@
 {
-  "Version": "1.4.9",
-  "ReleaseNotes": "@filipeNF\nconfig 1.4.9 novas para todas as operadoras",
+  "Version": "1.5.0",
+  "ReleaseNotes": "@filipeNF\nconfig 1.5.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
