@@ -1,6 +1,6 @@
 {
-  "Version": "1.5.9",
-  "ReleaseNotes": "@filipeNF\nconfig 1.5.8 novas para todas as operadoras",
+  "Version": "1.6.0",
+  "ReleaseNotes": "@filipeNF\nconfig 1.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -19,20 +19,20 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-     },
-     {
-      "Name": "VIVO",
+    },
+    {
+      "Name": "⚡NF NET",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "d3nv7tg6fxbhk6.cloudfront.net",
+      "ServerIP": "br2.noahfelipes.online",
       "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
+    }
   ],
-  
+
 "Networks": [
 {
    "Name": "INJECT PROXY 1",
