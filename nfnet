@@ -32,6 +32,7 @@
       "PASS": ""
     },
   ],
+  
 "Networks": [
 {
    "Name": "INJECT PROXY 1",
