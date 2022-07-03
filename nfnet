@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.6",
+  "Version": "1.5.7",
   "ReleaseNotes": "@filipeNF\nconfig 1.5.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -40,7 +40,7 @@
      "Payload": "GET / HTTP/1.1[crlf]Host: d3nv7tg6fxbhk6.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
      "SNI": "",
      "TlsIP": "",
-     "ProxyIP": "live.vivo.com.br",
+     "ProxyIP": "unpkg.com",
      "ProxyPort": "80",
    "Info": "Proxy"
   },
