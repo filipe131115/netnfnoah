@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.6",
+  "Version": "2.0.7",
   "ReleaseNotes": "@filipeNF\nconfig 2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -65,7 +65,7 @@
       "Info": "Tlsws"
     },
     {
-   "Name": "INJECT TLS 4",
+      "Name": "VIVO 01",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -73,7 +73,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-  },
+    },
   {
    "Name": "INJECT TLS 5",
    "FLAG": "vivo",
