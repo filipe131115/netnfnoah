@@ -1,5 +1,5 @@
 {
-  "Version": "2.1.1",
+  "Version": "2.1.3",
   "ReleaseNotes": "@filipeNF\nconfig 2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -38,11 +38,11 @@
    "Name": "INJECT PROXY 1",
    "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3nv7tg6fxbhk6.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "d3nv7tg6fxbhk6.cloudfront.net",
-      "TlsIP": "live.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "live.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
   {
    "Name": "VIVO 1",
