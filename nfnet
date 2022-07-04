@@ -45,74 +45,54 @@
       "Info": "Proxy"
     },
   {
-   "Name": "VIVO 1",
-  "FLAG": "vivo",
-  "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-  "SNI": "carrinho-pos-familia.vivo.com.br",
-  "TlsIP": "172.67.165.43",
-  "ProxyIP": "",
-  "ProxyPort": "443",
-  "Info": "Tlsws"
-  },
-  {
-  "Name": "VIVO 2 ",
-  "FLAG": "vivo",
-  "Payload": "GET /? HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
-  "SNI": "",
-  "TlsIP": "",
-  "ProxyIP": "172.67.165.43",
-  "ProxyPort": "80",
-  "Info": "Proxy"
+ "Name": "CNXG (SPEED)",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-  "Name": "VIVO 3",
-  "FLAG": "vivo",
-  "Payload": "GET /? HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
-  "SNI": "",
-  "TlsIP": "",
-  "ProxyIP": "104.21.11.51",
-  "ProxyPort": "80",
-  "Info": "Proxy"
-    },
-   {
-     "Name": "INJECT PROXY 3",
+      "Name": "CNXG 2",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
+     "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.7.80",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
-{
-   "Name": "INJECT TLS 4",
+    {
+      "Name": "CNXG 3",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
+       "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
-  },
-  {
-   "Name": "INJECT TLS 5",
-   "FLAG": "vivo",
-   "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "cdnjs.cloudflare.com",
-   "TlsIP": "172.67.165.43",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },  
-  {
-   "Name": "INJECT TLS 6",
-   "FLAG": "vivo",
-   "Payload": "GET wss://live.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "live.vivo.com.br",
-   "TlsIP": "172.67.165.43",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
+    },
+     {
+      "Name": "CNXG 4",
+      "FLAG": "vivo",
+      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+     {
+      "Name": "CNXG 5",
+      "FLAG": "vivo",
+      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
   },
   {
    "Name": "INJECT TLS 7",
