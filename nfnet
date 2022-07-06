@@ -37,7 +37,7 @@
 {
     "Name": "INJECT PROXY 1",
    "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: SeuClouflare[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.16.56.6",
       "ProxyIP": "",
