@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.7",
-  "ReleaseNotes": "@filipeNF\nconfig 2.6.7 novas para todas as operadoras",
+  "Version": "2.1.8",
+  "ReleaseNotes": "@filipeNF\nconfig 2.1.8 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -35,39 +35,9 @@
 
 "Networks": [
 {
-    "Name": "INJECT PROXY 1",
-   "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.16.56.6",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-  {
-   Name": "🟣VIVO [DIRECT 2022-01]",
-      "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣VIVO [DIRECT 2022-02]",
-      "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣VIVO [DIRECT 2022-03]",
-      "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: websocket[crlf][crlf]",
+   "Name": "💜VIVO 1- MANDA PRINT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.67.165.43",
@@ -75,41 +45,41 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO [DIRECT 2022-02]",
-      "FLAG": "vivo.png",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "💜VIVO 2-MANDA PRINT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "172.67.165.43",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO 2022 ssl1",
+      "Name": "💜VIVO 3-MANDA PRINT",
       "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
+      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "money-staging.infinitepay.io",
+      "TlsIP": "104.24.10.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "💜VIVO 4-MANDA PRINT",
+      "FLAG": "vivo",
+      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "🟣VIVO 5-MANDA PRINT",
+      "FLAG": "vivo",
+      "Payload": "GET wss://telefonica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "telefonica.com.br",
       "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣VIVO 4",
-      "FLAG": "vivo",
-      "Payload": "GET wss://checkout.mediafire.com// HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "checkout.mediafire.com",
-      "TlsIP": "104.24.11.16",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟣VIVO 5",
-      "FLAG": "vivo",
-      "Payload": "GET wss://onepiece.com// HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "onepiece.com",
-      "TlsIP": "172.64.131.2",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
