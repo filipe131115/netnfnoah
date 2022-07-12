@@ -1,5 +1,5 @@
 {
-  "Version": "2.2.4",
+  "Version": "2.2.5",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.2 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -7,7 +7,7 @@
   "UrlContato": "filipe260100@gmail.com",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
-  "UdpPort": "7300",
+ "UdpPort": "7300;7500;7295;7296;7200;7297;7298;7299;7400",
   "Servers": [
     {
       "Name": "⚡NF NET",
