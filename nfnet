@@ -1,6 +1,6 @@
 {
-  "Version": "2.2.2",
-  "ReleaseNotes": "@filipeNF\nconfig 2.2.1 novas para todas as operadoras",
+  "Version": "2.2.4",
+  "ReleaseNotes": "@filipeNF\nconfig 2.2.2 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -147,9 +147,9 @@
 {
    "Name": "INJECT TLS 13",
    "FLAG": "tim",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: br1.noahfelipes.online[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
    "SNI": "static.r4you.co",
-   "TlsIP": "104.26.5.175",
+   "TlsIP": "static.r4you.co",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
