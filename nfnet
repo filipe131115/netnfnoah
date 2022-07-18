@@ -1,5 +1,5 @@
 {
-  "Version": "2.2.6",
+  "Version": "2.2.8",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -35,66 +35,56 @@
 
 "Networks": [
 {
- "Name": "INJECT PROXY 1",
-   "FLAG": "vivo",
-      "Payload": "GET wss://gracegardencounseling.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "gracegardencounseling.com",
-      "TlsIP": "gracegardencounseling.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+ Name": "🟣VIVO [DIRECT 07]🟣", 
+        "FLAG": "vivo", 
+        "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
+        "SNI": "", 
+        "TlsIP": "", 
+        "ProxyIP": "65.8.214.87", 
+        "ProxyPort": "80", 
+        "Info": "Proxy" 
     },
-  {
-   "Name": "INJECT PROXY 2",
-   "FLAG": "vivo",
-      "Payload": "GET wss://rapehun.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "rapehun.com",
-      "TlsIP": "rapehun.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+    {
+    "Name": "🟣VIVO [DIRECT 08]🟣", 
+        "FLAG": "vivo", 
+        "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
+        "SNI": "", 
+        "TlsIP": "", 
+        "ProxyIP": "65.8.214.21", 
+        "ProxyPort": "80", 
+        "Info": "Proxy" 
     },
-   {
-     "Name": "INJECT PROXY 3",
+    {
+"Name": "🟣VIVO [SSL 01]🟣",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "Payload": "GET wss://checkout.mediafire.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "checkout.mediafire.com",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": " ",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟣VIVO [SSL 02]🟣",
+      "FLAG": "vivo",
+      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "money-staging.infinitepay.io",
       "TlsIP": "172.67.165.43",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-{
-   "Name": "INJECT TLS 4",
+    {
+      "Name": "🟣VIVO [SSL 03]🟣",
       "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-  },
-  {
-   "Name": "INJECT TLS 5",
-   "FLAG": "vivo",
-   "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "cdnjs.cloudflare.com",
-   "TlsIP": "172.67.165.43",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },  
-  {
-   "Name": "INJECT TLS 6",
-   "FLAG": "vivo",
-   "Payload": "GET wss://live.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "live.vivo.com.br",
-   "TlsIP": "172.67.165.43",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },
-  {
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.67.165.43",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
    "Name": "INJECT TLS 7",
    "FLAG": "claro",
    "Payload": "GET sni://go.kaltura.com HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Upgrade[crlf][crlf]",
