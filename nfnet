@@ -1,5 +1,5 @@
 {
-  "Version": "2.3.2",
+  "Version": "2.3.3",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -50,7 +50,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.35.118.90/",
+      "ProxyIP": "13.35.118.90",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
