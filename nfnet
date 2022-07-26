@@ -1,5 +1,5 @@
 {
-  "Version": "2.3.4",
+  "Version": "2.3.5",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -45,12 +45,12 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟢VIVO 111🟢DDD12,13,15,21,28,62,64,74,96",
-      "FLAG": "vivo.png",
+      "Name": "INJECT PROXY 2",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.67.165.43",
+      "ProxyIP": "104.21.11.51",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -167,9 +167,9 @@
   {
    "Name": "INJECT TLS 14",
    "FLAG": "claro",
-   "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
-   "SNI": "go.kaltura.com",
-   "TlsIP": "go.kaltura.com",
+   "Payload": "GET wss://2403821-1.mediaspace.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "2403821-1.mediaspace.kaltura.com",
+   "TlsIP": "2403821-1.mediaspace.kaltura.com",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
