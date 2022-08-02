@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.6",
+  "Version": "2.4.7",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -60,7 +60,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: 091016x385jo4r95e6.agilewingcdn.com[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyIP": "091016x385jo4r95e6.agilewingcdn.com",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
