@@ -1,5 +1,5 @@
 {
-  "Version": "2.4.7",
+  "Version": "2.4.8",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -21,10 +21,10 @@
       "PASS": ""
     },
     {
-      "Name": "VIVO",
+      "Name": "AZURE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br1.noahfelipes.online",
+      "ServerIP": "br2.noahfelipes.online",
       "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
