@@ -7,7 +7,7 @@
   "UrlContato": "filipe260100@gmail.com",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
- "UdpPort": "7400",
+ "UdpPort": "7300",
   "Servers": [
     {
       "Name": "⚡NF NET",
