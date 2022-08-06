@@ -1,5 +1,5 @@
 {
-  "Version": "2.5.0",
+  "Version": "2.5.1",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
@@ -7,7 +7,7 @@
   "UrlContato": "filipe260100@gmail.com",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
- "UdpPort": "7300;7400",
+ "UdpPort": "7400",
   "Servers": [
     {
       "Name": "⚡NF NET",
@@ -24,7 +24,7 @@
       "Name": "AZURE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br2.noahfelipes.online",
+      "ServerIP": "br3.noahfelipes.online",
       "CheckUser": "http://186.233.119.52:8181/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
