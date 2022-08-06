@@ -1,5 +1,5 @@
 {
-  "Version": "2.5.1",
+  "Version": "2.5.2",
   "ReleaseNotes": "@filipeNF\nconfig 2.2.6 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/nfnet",
   "Sms": "https://raw.githubusercontent.com/filipe131115/netnfnoah/main/sms",
