@@ -1,3 +1,9 @@
 {
-    "licenca": "20202020"
+    "usuarios": [
+        {
+            "usuario": "usuario1",
+            "senha": "senha1",
+            "data_expiracao": "2024-12-31"
+        }
+    ]
 }
