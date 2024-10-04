@@ -1,8 +1,9 @@
-    RTRIM(TRIM(M.CODIGO_PRIMARIO)) AS CODIGO_PRIMARIO,
+    RTRIM(TRIM(M.TMER_CODIGO_BARRAS_UKNS)) AS CODIGOBARRAS,
                *
-ERRO na linha 3:
+ERRO na linha 2:
 ORA-00904: 
-"M"."CODIGO_PRIMARIO": 
-identificador inválido 
+"M"."TMER_CODIGO_BARRAS_U
+KNS": identificador 
+inválido 
 
 
