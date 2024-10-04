@@ -1,9 +1,8 @@
-    TMER_MERCADORIA M ON M.TMER_CODIGO_PRI_PK = E.TMER_CODIGO_PRI_FK_PK
-                                                *
-ERRO na linha 8:
+    RTRIM(TRIM(M.CODIGO_PRIMARIO)) AS CODIGO_PRIMARIO,
+               *
+ERRO na linha 3:
 ORA-00904: 
-"E"."TMER_CODIGO_PRI_FK_P
-K": identificador 
-inválido 
+"M"."CODIGO_PRIMARIO": 
+identificador inválido 
 
 
